@@ -30,3 +30,7 @@ for(let i=9;i>0;--i){
 }
 str += '</table>'
 document.getElementById('table3').innerHTML=str
+let srr = [1, 2,,,5]
+for(val in arr){
+    console.log(val)
+}
