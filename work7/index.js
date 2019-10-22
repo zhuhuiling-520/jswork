@@ -1,12 +1,12 @@
-function soet(method){
-    let origin = document.getElementById('origin').Value
+function sort(method){
+    let origin = document.getElementById('origin').value
     let logs
     console.log(method)
-    if(method=='bubble'){
+    if(method =='bubble'){
         logs = bubbleSort(origin)
-    }else if(method=='insert'){
-        logs = insertSoet(origin)
+    }else if(method =='insert'){
+        logs = insertSort(origin)
     }
-    showDiv = document.getElementById('Anim')
+    showDiv = document.getElementById("Anim")
     showDiv.innerHTML = logs
 }
