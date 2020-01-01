@@ -36,7 +36,7 @@ function init(rowCount, colCount, minLandMineCount, maxLandMineCount) {
         beginButton = doc.getElementById("begin");
     if (jms != null) {
         clearInterval(timeHandle);
-        timeShow.innerHTML = 0;
+        timerShow.innerHTML = 0;
         landMineCountElement.innerHTML = 0;
     }
     jms = JMS("landmine", rowCount, colCount, minLandMineCount, maxLandMineCount);
